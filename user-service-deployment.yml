@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: user-service
-        image: sadademba/project-cicd-2024:user-service-1.0.0
+        image: sadademba/project-cicd-2024:user-service-1.0.1
         ports:
         - containerPort: 3001
       imagePullSecrets:
