@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: order-service
-        image: sadademba/project-cicd-2024:order-service-1.0.1
+        image: sadademba/project-cicd-2024:order-service-1.0.2
         ports:
         - containerPort: 3002
       imagePullSecrets:
