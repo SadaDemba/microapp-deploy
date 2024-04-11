@@ -8,7 +8,7 @@ metadata:
 spec:
   ingressClassName: nginx
   rules:
-  - host: cicd-project.com
+  - host: api.microapp-deploy.com
     http:
       paths:
       - path: /order
