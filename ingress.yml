@@ -18,8 +18,8 @@ spec:
             name: order-service
             port:
               number: 3002
-      - path: /user
-        pathType: Prefix
+      - path: /user(/|$)(.*)
+        pathType: ImplementationSpecific
         backend:
           service:
             name: user-service
