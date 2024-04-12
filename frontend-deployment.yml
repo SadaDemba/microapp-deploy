@@ -21,7 +21,6 @@ spec:
         - containerPort: 3000
       imagePullSecrets:
       - name: myregistrykey
-
 ---
 
 apiVersion: v1
